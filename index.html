@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mustafa Hegazy's professional portfolio. Full-stack developer with .NET & Angular skills."
+    />
+    <meta
+      name="keywords"
+      content="Mustafa Hegazy, Full Stack Developer, .NET, Angular, Portfolio, Web Developer Egypt"
+    />
+    <meta name="author" content="Mustafa Hegazy" />
+    <title>Mustafa Hegazy - Software Engineer</title>
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="https://img.icons8.com/fluency/48/under-computer.png"
+    />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/assets/css/aos.css" />
+    <link rel="stylesheet" href="/assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "cRRrdtI5OIqXWDdYj",
+        });
+      })();
+    </script>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!--Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mb-lg-4 mx-lg-auto" href="#">
+          <span class="h3 fw-bold d-block d-lg-none">Mustafa Hegazy</span>
+          <img
+            src="/assets/images/me.jpg"
+            class="d-none d-lg-block rounded-circle"
+            alt="personal image of me"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button
+                id="themeToggle"
+                class="btn btn-outline-light d-flex align-items-center gap-2 px-3 py-2 rounded-pill shadow-sm border-1"
+              >
+                <i class="bi bi-moon-stars-fill"></i>
+                <span>Dark Mode</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End of Navbar -->
+
+    <!-- Main Content-->
+
+    <main id="content">
+      <!-- Hero Section -->
+      <section id="home" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
+                I'm a <span class="text-brand">Software Engineer</span>
+              </h1>
+              <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
+                Hi, I'm Mustafa Reda Hegazy — a dedicated software engineer from
+                Egypt, driven by curiosity and a love for building meaningful
+                digital experiences, with a focus on clean code and creative
+                problem-solving, I design and develop high-performing,
+                user-centered applications that deliver both value and delight.
+              </p>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand me-4">Explore Work</a>
+                <a href="#" class="link-custom">Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Hero Section -->
+      <!---My Services -->
+      <section id="services" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">WHAT I DO</h6>
+              <h2>Services I Can Offer</h2>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-code"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Web Development</h5>
+                <p>
+                  I build full stack web applications using modern technologies
+                  like .NET Core, Angular, and SQL Server—ensuring scalability,
+                  responsiveness, and clean architecture.
+                </p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-desktop"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Desktop Applications</h5>
+                <p>
+                  I develop Windows Forms applications for desktop
+                  environments—focused on reliability, usability, and seamless
+                  performance for internal tools or business utilities.
+                </p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-pencil-ruler"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Branding & Frontend</h5>
+                <p>
+                  I design and develop clean, professional landing pages that
+                  align with brand identity—optimized for conversion, mobile
+                  responsiveness, and visual appeal.
+                </p>
+                <br />
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End of servics-->
+
+      <!-- WORK -->
+      <section id="work" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">WORK</h6>
+              <h1>My Recent Projects</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/project-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>7EGZ-STORE E-Commerce</h4>
+                  <p>
+                    Developed a responsive and user-friendly e-commerce website
+                    using HTML, CSS, and JavaScript
+                  </p>
+                  <a
+                    href="https://github.com/Mustafa7egazi/7EGZ-STORE"
+                    class="link-custom me-5"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                  <a
+                    href="https://mustafa7egazi.github.io/7EGZ-STORE/"
+                    target="_blank"
+                    class="link-custom"
+                    >Live</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/project-2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>REDSTORE Landing Page</h4>
+                  <p>
+                    Simulated a trademark landing page using HTML, CSS, and
+                    JavaScript
+                  </p>
+                  <a
+                    href="https://github.com/Mustafa7egazi/ITI-Full-Stack-Using-DOT-NET/tree/main/02-Frontend-Web-Development/HTML5%26CSS3/Redstore-Template"
+                    target="_blank"
+                    class="link-custom"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/project-3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>TAILOR Landing Page</h4>
+                  <p>
+                    Simulated a trademark landing page using HTML, CSS, and
+                    JavaScript
+                  </p>
+                  <a
+                    href="https://github.com/Mustafa7egazi/ITI-Full-Stack-Using-DOT-NET/tree/main/02-Frontend-Web-Development/HTML5%26CSS3/Day01/Tailor"
+                    class="link-custom"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/portfolio.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>My Portfolio</h4>
+                  <p>Made a portfolio using HTML, CSS, and JavaScript</p>
+                  <a
+                    href="https://github.com/Mustafa7egazi/ITI-Full-Stack-Using-DOT-NET/tree/main/02-Frontend-Web-Development/HTML5%26CSS3/Day01/Tailor"
+                    class="link-custom"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-content p-4">
+                  <h4>MORE IS COMMING SOON...</h4>
+                  <p>
+                    Currently, I am learning new frameworks, and new projects
+                    will be introduced soon.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Work Section -->
+      <!-- ABOUT -->
+      <section id="about" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">ABOUT</h6>
+              <h2>My Education & Experience</h2>
+            </div>
+          </div>
+
+          <div class="row gy-5">
+            <div class="col-lg-6">
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                Education
+              </h3>
+              <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Bachelor's degree in computer science</h4>
+                    <p class="text-brand mb-2">
+                      Faculty of Computers and Information
+                      <span style="display: inline-block"
+                        >at Menoufia University (2019 - 2023)</span
+                      >
+                    </p>
+                    <p class="mb-0">
+                      Graduated with a Bachelor's degree in Computer Science,
+                      with degree A with Honors. Focused on software
+                      engineering.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                Experiance
+              </h3>
+              <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Full Stack .NET Trainee</h4>
+                    <p class="text-brand mb-2">
+                      <span style="display: inline-block"
+                        >Intensive Training Program (ITP)</span
+                      >
+                      <span class="d-block">
+                        at Information Technology Institute (ITI) (Feb-2025 -
+                        present)</span
+                      >
+                    </p>
+                    <p class="mb-0">
+                      Worked on a real projects using .NET Core and Angular,
+                      focusing on building scalable and maintainable
+                      applications. Gained hands-on experience in full-stack
+                      development, including database design and RESTful API
+                      integration.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>IT Support</h4>
+                    <p class="text-brand mb-2">
+                      Egyptian Military Army (Jan 2024 - Dec 2024)
+                    </p>
+                    <p class="mb-0">
+                      Worked as an IT support at my military service, providing
+                      technical assistance and support for computer systems and
+                      networks. Worked as web developer, providing CRUD
+                      applications using HTML, CSS, JavaScript for Front-End and
+                      NodeJS and MongoDB for Back-End.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of ABOUT -->
+
+      <!-- SKILLS -->
+      <section id="skills" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">SKILLS</h6>
+              <h2>My Technical Expertise</h2>
+              <p class="lead mt-2">
+                A comprehensive overview of my technical skills and proficiency
+                levels
+              </p>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <!-- Column 1 -->
+            <div class="col-lg-6">
+              <!-- Programming Languages -->
+              <div
+                class="bg-base p-4 rounded-4 shadow-effect mb-4"
+                data-aos="fade-up"
+              >
+                <div class="d-flex align-items-center mb-3">
+                  <div class="iconbox rounded-4 me-3">
+                    <i class="las la-code"></i>
+                  </div>
+                  <h3 class="mb-0">Programming Languages</h3>
+                </div>
+                <ul class="mb-0">
+                  <li>C#</li>
+                  <li>JavaScript (ES6)</li>
+                  <li>TypeScript</li>
+                </ul>
+              </div>
+
+              <!-- Web Technologies -->
+              <div
+                class="bg-base p-4 rounded-4 shadow-effect mb-4"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="d-flex align-items-center mb-3">
+                  <div class="iconbox rounded-4 me-3">
+                    <i class="las la-globe"></i>
+                  </div>
+                  <h3 class="mb-0">Web Technologies</h3>
+                </div>
+                <ul class="mb-0">
+                  <li>HTML5 & CSS3</li>
+                  <li>Bootstrap</li>
+                  <li>jQuery</li>
+                  <li>Angular</li>
+                </ul>
+              </div>
+
+              <!-- Software Engineering Concepts -->
+              <div
+                class="bg-base p-4 rounded-4 shadow-effect"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="d-flex align-items-center mb-3">
+                  <div class="iconbox rounded-4 me-3">
+                    <i class="las la-cubes"></i>
+                  </div>
+                  <h3 class="mb-0">Software Engineering Concepts</h3>
+                </div>
+                <ul class="mb-0">
+                  <li>OOP Principles</li>
+                  <li>SOLID Principles</li>
+                  <li>Design Patterns</li>
+                  <li>Data Structures & Algorithms</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-lg-6">
+              <!-- .NET Development -->
+              <div
+                class="bg-base p-4 rounded-4 shadow-effect mb-4"
+                data-aos="fade-up"
+              >
+                <div class="d-flex align-items-center mb-3">
+                  <div class="iconbox rounded-4 me-3">
+                    <i class="lab la-microsoft"></i>
+                  </div>
+                  <h3 class="mb-0">.NET Development</h3>
+                </div>
+                <ul class="mb-0">
+                  <li>ASP.NET Core</li>
+                  <li>ASP.NET MVC</li>
+                  <li>Entity Framework Core</li>
+                  <li>LINQ</li>
+                  <li>SQL Server</li>
+                </ul>
+              </div>
+
+              <!-- Tools -->
+              <div
+                class="bg-base p-4 rounded-4 shadow-effect mb-4"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="d-flex align-items-center mb-3">
+                  <div class="iconbox rounded-4 me-3">
+                    <i class="las la-tools"></i>
+                  </div>
+                  <h3 class="mb-0">Tools</h3>
+                </div>
+                <ul class="mb-0">
+                  <li>Git & GitHub</li>
+                  <li>Postman</li>
+                  <li>Visual Studio / VS Code</li>
+                </ul>
+              </div>
+
+              <!-- Web APIs -->
+              <div
+                class="bg-base p-4 rounded-4 shadow-effect"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="d-flex align-items-center mb-3">
+                  <div class="iconbox rounded-4 me-3">
+                    <i class="las la-network-wired"></i>
+                  </div>
+                  <h3 class="mb-0">Web API</h3>
+                </div>
+                <ul class="mb-0">
+                  <li>RESTful APIs</li>
+                  <li>ASP.NET Web API</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End of SKILLS -->
+
+      <!-- CONTACT -->
+      <section
+        id="contact"
+        class="full-height px-lg-5"
+        aria-labelledby="contact-heading"
+      >
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8 pb-4" data-aos="fade-up">
+              <h6 id="contact-heading" class="text-brand">CONTACT</h6>
+              <h2>Interested in working together? <br />Let's talk</h2>
+            </div>
+
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+              <form
+                id="contact-form"
+                method="post"
+                class="row g-lg-3 gy-3"
+                role="form"
+              >
+                <div class="form-group col-md-6">
+                  <label for="name" class="visually-hidden">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    id="name"
+                    name="name"
+                    required
+                    autocomplete="name"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="email" class="visually-hidden">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                    id="email"
+                    name="email"
+                    required
+                    autocomplete="email"
+                  />
+                </div>
+                <div class="form-group col-12">
+                  <label for="subject" class="visually-hidden">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter subject"
+                    id="subject"
+                    name="subject"
+                    required
+                  />
+                </div>
+                <div class="form-group col-12">
+                  <label for="message" class="visually-hidden">Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="4"
+                    class="form-control"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group col-12 d-grid">
+                  <button
+                    type="submit"
+                    class="btn btn-brand"
+                    aria-label="Send message"
+                  >
+                    Contact me
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End of Contact-->
+
+       <!-- FOOTER -->
+      <footer class="py-4 text-center text-lg-start border-top mt-5 bg-base" role="contentinfo">
+        <div class="container px-lg-5">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              <p class="mb-0">&copy; 2025 Mustafa Reda Hegazy. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <a
+                href="mailto:mustafa@example.com"
+                class="text-decoration-none me-3 text-brand"
+                aria-label="Email Mustafa"
+              >
+                <i class="las la-envelope"></i>
+              </a>
+              <a
+                href="https://github.com/Mustafa7egazi"
+                target="_blank"
+                class="text-decoration-none me-3 text-brand"
+                rel="noopener"
+                aria-label="GitHub Profile"
+              >
+                <i class="lab la-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/mustafa7egazi"
+                target="_blank"
+                class="text-decoration-none text-brand"
+                rel="noopener"
+                aria-label="LinkedIn Profile"
+              >
+                <i class="lab la-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- END OF FOOTER -->
+    </main>
+
+    <!-- End of Main Content-->
+
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/aos.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
